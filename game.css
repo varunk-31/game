@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+
+
+/* Responsive Design */
+/* Responsive Design and Keyframe Enhancements */
+
+/* Simple Scaling Animation for Choices */
+@keyframes scaleEffect {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.1); }
+}
+
+.choice:hover {
+    animation: scaleEffect 0.3s forwards;
+}
+
+/* Responsive Design */
+/* Responsive Design and Keyframe Enhancements */
+
+/* Simple Scaling Animation for Choices */
+@keyframes scaleEffect {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.1); }
+}
+
+.choice:hover {
+    animation: scaleEffect 0.3s forwards;
+}
+
+/* Responsive Design */
+/* Responsive Design and Keyframe Enhancements */
+
+/* Simple Scaling Animation for Choices */
+@keyframes scaleEffect {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.1); }
+}
+
+.choice:hover {
+    animation: scaleEffect 0.3s forwards;
+}
+
+/* Responsive Design */
+/* Responsive Design and Keyframe Enhancements */
+
+/* Simple Scaling Animation for Choices */
+@keyframes scaleEffect {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.1); }
+}
+
+.choice:hover {
+    animation: scaleEffect 0.3s forwards;
+}
+
+/* Responsive Design */
+/* Responsive Design and Keyframe Enhancements */
+
+/* Simple Scaling Animation for Choices */
+@keyframes scaleEffect {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.1); }
+}
+
+.choice:hover {
+    animation: scaleEffect 0.3s forwards;
+}
+
+/* Responsive Design - Fit to One Screen */
+/* Responsive Design and Keyframe Enhancements */
+
+/* Simple Scaling Animation for Choices */
+@keyframes scaleEffect {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.1); }
+}
+
+.choice:hover {
+    animation: scaleEffect 0.3s forwards;
+}
+
+/* Responsive Design - Fit to One Screen */
+/* Responsive Design and Keyframe Enhancements */
+
+/* Simple Scaling Animation for Choices */
+@keyframes scaleEffect {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.1); }
+}
+
+.choice:hover {
+    animation: scaleEffect 0.3s forwards;
+}
+
+/* Responsive Design - Fit to One Screen */
+/* Responsive Design and Keyframe Enhancements */
+
+/* Simple Scaling Animation for Choices */
+@keyframes scaleEffect {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.1); }
+}
+
+.choice:hover {
+    animation: scaleEffect 0.3s forwards;
+}
+
+/* Responsive Design - Fit to One Screen with Triangle Layout */
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem;
+        height: 4rem;
+        line-height: 4rem;
+    }
+
+    .choices {
+        flex-direction: column;
+        gap: 3rem;
+        margin-top: 2rem;
+    }
+
+    .choice {
+        height: 120px;
+        width: 120px;
+    }
+
+    img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .score-board {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    #computerChoosed,
+    #msg {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .noOfTurns {
+        text-align: center;
+        margin-right: 0;
+        margin-top: 0.5rem;
+        font-size: 1.5rem;
+    }
+
+    .choice {
+        height: 100px;
+        width: 100px;
+    }
+
+    img {
+        height: 80px;
+        width: 80px;
+    }
+
+    #msg {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* main */
+h1{
+    background-color: #001219;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+.noOfTurns{
+    margin-top: 1rem;
+    margin-right: 3rem;
+    text-align: right;
+    font-size: 2rem;
+}
+.choices{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+}
+
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.choice:hover{
+    background-color: #FF6F61;
+   
+}
+#stone:hover{
+    background-color: #FF1493;
+}
+#paper:hover{
+    background-color: #1E90FF;
+}
+#scissors:hover{
+    background-color: #FFD700;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 4rem;
+    font-size: 2rem;
+}
+#user-score , #comp-score{
+    font-size: 5rem;
+}
+#computerChoosed{
+    
+    font-size: 3rem;
+    margin-top: 5rem;
+}
+
+.msg-container{
+    margin-top: 5rem;
+}
+
+
+#msg{
+    height: 5rem;
+    
+    display: inline;
+    background-color: #001219;
+    font-size: 3rem;
+    border-radius: 1rem;
+    color: white;
+    padding: 2rem;
+}
+#msg:hover{
+    background-color: #005f73;
+    border: 4px solid #001219;
+    
+}
